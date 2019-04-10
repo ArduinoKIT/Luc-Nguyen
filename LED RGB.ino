@@ -1,9 +1,9 @@
 /*
    RGB LED
 */
-int redPin = 9;    // the pin that the red LED is attached to
+int redPin = 11;    // the pin that the red LED is attached to
 int greenPin = 10; // the pin that the green LED is attached to
-int bluePin = 11;  // the pin that the blue LED is attached to
+int bluePin = 9;  // the pin that the blue LED is attached to
 
 void setup(){
      pinMode(redPin, OUTPUT);
